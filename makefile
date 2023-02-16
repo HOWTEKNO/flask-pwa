@@ -1,6 +1,6 @@
 .PHONY: environment
 environment:
-	pyenv install -s 3.10.0
+	pyenv install -s 3.11.2
 	pyenv uninstall --force flask-pwa
 	pyenv virtualenv 3.10.0 --force flask-pwa
 	pyenv local flask-pwa
